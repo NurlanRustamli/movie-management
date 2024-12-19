@@ -29,6 +29,7 @@ public class Main {
             int choice = sc.nextInt();
             sc.nextLine();
 
+
             if (choice == 1) {
                 for (int i = 0; i < movies.length; i++) {
                     movies[i] = new Movie();
